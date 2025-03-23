@@ -1,0 +1,22 @@
+{
+	"name": "blue-theme",
+	"displayName": "Blue Theme",
+	"description": "Un tema personalizado para VSCode",
+	"version": "1.0.0",
+	"publisher": "Jon Alvarez",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Blue Theme",
+				"uiTheme": "vs-dark",
+				"path": "./blue-theme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"size": 57890
+	}
+}
