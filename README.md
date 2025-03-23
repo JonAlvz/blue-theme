@@ -2,7 +2,7 @@
 
 **Blue Theme** is a dark theme for Visual Studio Code, designed to provide a visually appealing and comfortable coding experience. It features carefully selected colors for syntax highlighting, UI elements, and semantic tokens to enhance readability and focus.
 
-![Theme Preview](./theme-preview.png)
+![Theme Preview](https://github.com/JonAlvz/blue-theme/blob/main/theme-preview.png)
 
 ## Features
 
