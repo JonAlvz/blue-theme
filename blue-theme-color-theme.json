@@ -805,6 +805,18 @@
       }
     },
     {
+      "name": "HTML String",
+      "scope": [
+        "string.quoted.double.html",
+        "string.quoted.single.html",
+        "punctuation.definition.string.begin.html",
+        "punctuation.definition.string.end.html"
+      ],
+      "settings": {
+        "foreground": "#92ccff" // Azul claro como en la imagen
+      }
+    },
+    {
       "name": "Selector",
       "scope": "meta.selector",
       "settings": {
@@ -1842,6 +1854,16 @@
       "settings": {
         "fontStyle": "italic"
       }
+    },
+    {
+      "name": "HTML Tags",
+      "scope": [
+        "entity.name.tag.html",
+        "entity.name.tag.xml"
+      ],
+      "settings": {
+        "foreground": "#ff79c6"
+      }
     }
   ],
   "colors": {
@@ -1912,7 +1934,7 @@
     "inputOption.activeForeground": "#ffffff",
     "input.placeholderForeground": "#a6a6a6",
     "textLink.foreground": "#3794ff",
-    "editor.background": "#17172a",
+    "editor.background": "#17182a", // Azul oscuro
     "editor.foreground": "#ffffff",
     "editorLineNumber.foreground": "#5a7584",
     "editorCursor.foreground": "#aeafad",
