@@ -817,6 +817,16 @@
       }
     },
     {
+      "name": "HTML Tag Punctuation",
+      "scope": [
+        "punctuation.definition.tag.begin.html", 
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag"],
+      "settings": {
+        "foreground": "#d3e4f1" // Cambia este color al que prefieras
+      }
+    },
+    {
       "name": "Selector",
       "scope": "meta.selector",
       "settings": {
@@ -1872,11 +1882,11 @@
     "selection.background": "#256aa7",
     "scrollbar.shadow": "#000000",
     "activityBar.foreground": "#a6d1ff",
-    "activityBar.background": "#0f0f1b",
+    "activityBar.background": "#0f1425",
     "activityBar.inactiveForeground": "#ffffff66",
     "activityBarBadge.foreground": "#ffffff",
     "activityBarBadge.background": "#0083db",
-    "sideBar.background": "#0f0f1b",
+    "sideBar.background": "#0f1425",
     "sideBar.foreground": "#cccccc",
     "sideBarSectionHeader.background": "#00000000",
     "sideBarSectionHeader.foreground": "#ffffff",
@@ -1934,7 +1944,7 @@
     "inputOption.activeForeground": "#ffffff",
     "input.placeholderForeground": "#a6a6a6",
     "textLink.foreground": "#3794ff",
-    "editor.background": "#17182a", // Azul oscuro
+    "editor.background": "#141a31", // Azul oscuro
     "editor.foreground": "#ffffff",
     "editorLineNumber.foreground": "#5a7584",
     "editorCursor.foreground": "#aeafad",
@@ -1976,7 +1986,7 @@
     "editorInfo.foreground": "#75beff",
     "editorInfo.background": "#4490BF00",
     "editorInfo.border": "#4490BF00",
-    "editorGutter.background": "#0f0f1b",
+    "editorGutter.background": "#0f1425",
     "editorGutter.modifiedBackground": "#0c7d9d",
     "editorGutter.addedBackground": "#587c0c",
     "editorGutter.deletedBackground": "#94151b",
@@ -1986,7 +1996,7 @@
     "diffEditor.insertedTextBackground": "#9bb95533",
     "diffEditor.removedTextBackground": "#ff000033",
     "diffEditor.border": "#444444",
-    "panel.background": "#0f0f1b",
+    "panel.background": "#0f1425",
     "panel.border": "#80808059",
     "panelTitle.activeBorder": "#e7e7e7",
     "panelTitle.activeForeground": "#e7e7e7",
@@ -2103,7 +2113,7 @@
     "minimap.selectionHighlight": "#264f78",
     "minimap.errorHighlight": "#f48771",
     "minimap.warningHighlight": "#cca700",
-    "minimap.background": "#17172a",
+    "minimap.background": "#171e2a",
     "sideBar.dropBackground": "#383b3d",
     "editorGroup.emptyBackground": "#17172a",
     "panelSection.border": "#80808059",
